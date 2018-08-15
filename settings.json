@@ -34,8 +34,12 @@
     "workbench.list.openMode": "doubleClick",
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "python.pythonPath": "${env.HOME}/miniconda3/bin/python",
+    "python.autoComplete.preloadModules": ["torch", "numpy", "pandas", "matplotlib"],
     "python.linting.pep8Enabled": true,
     "python.linting.pep8Args": [],
+    "python.linting.pylintArgs": [
+        "--generated-members=numpy.*,torch.*",
+    ],
     "python.linting.enabled": true,
     "[python]": {
         "editor.rulers": [
