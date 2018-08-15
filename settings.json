@@ -1,0 +1,52 @@
+{
+    "workbench.startupEditor": "none",
+    "telemetry.enableTelemetry": false,
+    "editor.cursorBlinking": "solid",
+    "editor.fontSize": 13,
+    "editor.lineHeight": 16,
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Darcula",
+    "workbench.activityBar.visible": false,
+    "workbench.statusBar.visible": true,
+    "workbench.colorCustomizations": {
+        "statusBar.background" : "#1A1A1A",
+        "statusBar.noFolderBackground" : "#212121",
+        "statusBar.debuggingBackground": "#263238",
+        "editorRuler.foreground": "#36363688",
+        "editorIndentGuide.background": "#36363688",
+        "editorIndentGuide.activeBackground": "#36363688",
+        "editorLineNumber.foreground": "#505050"
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "window.titleBarStyle": "custom",
+    "editor.fontFamily": "Source Code Pro",
+    "editor.wordWrap": "off",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 100,
+    "files.trimTrailingWhitespace": false,
+    "files.trimFinalNewlines": false,
+    "files.insertFinalNewline": true,
+    "editor.renderControlCharacters": false,
+    "editor.folding": false,
+    "explorer.openEditors.visible": 0,
+    "editor.renderLineHighlight": "none",
+    "workbench.editor.enablePreview": false,
+    "workbench.list.openMode": "doubleClick",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "python.pythonPath": "${env.HOME}/miniconda3/bin/python",
+    "python.linting.pep8Enabled": true,
+    "python.linting.pep8Args": [],
+    "python.linting.enabled": true,
+    "[python]": {
+        "editor.rulers": [
+            79
+        ]
+    },
+    "workbench.sideBar.location": "left",
+    "terminal.integrated.cursorBlinking": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.emptySelectionClipboard": false,
+    "editor.quickSuggestionsDelay": 0,
+    "editor.renderIndentGuides": true,
+    "latex-workshop.message.update.show": false
+}
