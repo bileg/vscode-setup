@@ -1,0 +1,18 @@
+[
+    {
+        "key": "shift+f6",
+        "mac": "shift+f6",
+        "command": "editor.action.rename",
+        "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+f6",
+        "mac": "shift+f6",
+        "command": "renameFile",
+        "when": "explorerViewletVisible && filesExplorerFocus"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "editor.action.toggleRenderWhitespace"
+    }
+]
