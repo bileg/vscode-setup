@@ -45,12 +45,18 @@
             79
         ],
         "editor.insertSpaces": true,
-        "editor.tabSize": 4
+        "editor.tabSize": 4,
+        "editor.detectIndentation": false
     },
     "[scala]": {
         "editor.rulers": [
             79
         ]
+    },
+    "[java]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "editor.detectIndentation": false
     },
     "workbench.sideBar.location": "left",
     "terminal.integrated.cursorBlinking": false,
